@@ -1,0 +1,184 @@
+
+body{
+    background-image: url("pics/background.jpg");
+    background-color: rgb(5, 226, 163);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    color: white;
+    margin-bottom: 3em;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 3.5em;
+}
+
+header h1{
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 13px;
+}
+
+header p{
+    line-height: 15px;
+    font-size: 15px;
+}
+
+header ul{
+    overflow: hidden;
+}
+
+header li{
+    display: inline;
+}
+header img{
+    width: 2%;
+    padding: 1em;
+}
+
+header img:hover{
+    background-color:rgb(2, 124, 77);
+    border-radius: 20%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+main{
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(250, 248, 248);
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 3em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    overflow: auto;
+    border-radius: 13%;
+}
+
+
+.box-content h2{
+    text-align: left;
+}
+
+
+.pic .inbox{
+    max-width: 20%;
+    float: left;
+}
+
+.desc{
+    display: inline;
+    vertical-align: middle;
+}
+
+.project{
+    float: left;
+    width: 50%;
+}
+
+.project p{
+    color:rgb(89, 89, 89)
+}
+
+.work img{
+    max-width: 30%;
+}
+
+.work a{
+    color:rgb(41, 41, 41);
+}
+
+.work a:hover{
+    color: blue;
+}
+
+.inbox{
+    max-width: 50%;
+}
+
+.education{
+    display: inline-block;
+    padding: 3em;
+    text-align: center;
+}
+
+.education h3{
+    line-height: 0px;
+}
+
+.education p{
+    color:rgb(89, 89, 89)
+}
+
+.language{
+    display: inline-block;
+    float: left;
+    padding: 3em 10em 3em 3em;
+}
+
+.language small{
+    color:rgb(89, 89, 89)
+}
+
+
+.form input[type="email"] {
+    padding: 5px 12px;
+    border: none;
+    border-bottom:2px solid #000;
+    width: 40%;
+    font-size: .9em;
+    color: #fff;
+    outline: none;
+    display: inline-block;
+    background: rgba(12, 12, 12, 0.36);
+
+}
+.form input[type="submit"] {
+    font-size: 85%;
+    background: rgb(5, 226, 163);
+    color: #000;
+    padding: 5px 18px;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing:1px;
+    font-weight: 600;
+}
+.form input[type="submit"]:hover {
+    background:rgb(2, 124, 77);
+    color: #fff;
+
+}
+
+.form textarea{
+    padding: 5px 12px;
+    margin-top: 2em;
+    border: none;
+    border-bottom:2px solid #000;
+    width: 40%;
+    font-size: .9em;
+    color: #fff;
+    outline: none;
+    display: inline-block;
+    background: rgba(12, 12, 12, 0.36);
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 3em;
+}
